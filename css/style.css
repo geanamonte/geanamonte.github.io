@@ -33,7 +33,7 @@ body{
     text-decoration: none;
 }
 .nav a:hover{
-    color: #028F97;
+    color: #30DAE4;
 }
 .titulo{
     font-weight: 300;
@@ -44,16 +44,22 @@ body{
     font-weight: 400;
 }
 #sobre{
-    padding:50px 0;
+    padding:50px;
     height: 662px;
     text-align: center;
 }
+h1{
+    margin: 30px 0;
+}
+#sobre .container{
+    width: 100%;
+}
 #sobre h1:after{
-    content: "---------";
+    content: ". . .";
     color: #028F97;
     display: block;
     font-size: 50px;
-    margin-top: -20px;
+    margin-top: -30px;
 }
 #sobre p{
     font-size: 20px;
@@ -61,11 +67,10 @@ body{
     line-height: 1.5em;
 }
 #sobre .voltar{
-    margin: 200px 100px 0 0;
+    margin: 200px 0 0 0;
 }
 #sobre .descer{
     text-align: right;
-    margin: 0 100px;
 }
 .descer a{
     color: #028F97;
@@ -86,11 +91,11 @@ body{
     text-align: center;
 }
 #trabalhos h1:after{
-    content: "---------";
+    content: ". . .";
     color: #028F97;
     display: block;
     font-size: 50px;
-    margin-top: -20px;
+    margin-top: -30px;
 }
 #trabalhos h2{
     text-align: center;
@@ -108,29 +113,29 @@ body{
     text-align: center;
 }
 #trabalhos .container{
-    max-width: 500px;
+    max-width: 700px;
 }
 .work{
     text-align: center;
 }
-.work:hover .descriçao{
-    visibility: visible;
-    opacity: 1;
-    
-}
 .descriçao{
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: opacity 0.5s linear;
-    -moz-transition: opacity 0.5s linear;
-    -o-transition: opacity 0.5s linear;
-    transition: opacity 0.5s linear;
     color: #028F97;
     padding: 20px 10px;
     font-size: 1.25em;
 }
 .work div img{
     width: 100%;
+}
+.slide{
+    width: 700px !important;
+    height: 320px;
+}
+.carousel-inner{
+    width: 500px;
+    margin-left: 100px;
+}
+.carousel-control{
+    background: rgb(222,224,222) !important;
 }
 .voltar{
     text-align: right;
@@ -150,4 +155,17 @@ footer{
     padding: 20px;
     color: white;
     text-align: center;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+    #sobre{
+        padding: 50px; 
+    }
+    #sobre .voltar{
+        margin: 100px 0 0 0;
+    }
+}
+@media (min-width: 320) and (max-width: 640) {
+    #inicio .container p{
+        font-size: 20px;
+    }
 }
