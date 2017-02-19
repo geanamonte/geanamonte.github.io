@@ -1,0 +1,111 @@
+@media (min-width: 768px) and (max-width: 1280px) {
+    #sobre{
+        padding: 50px; 
+    }
+    #sobre .voltar{
+        margin: 50px 0 0 0;
+    }
+}
+@media (min-width: 360px) and (max-width: 640px) {
+    #inicio .container{
+        max-width: 300px;
+        text-align: center;
+        height: 160px;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    .subtitulo{
+        font-size: 35px;
+    }
+    .nav{
+        font-size: 25px;
+    }
+    #sobre p{
+        font-size: 15px;
+    }
+    .voltar, .descer{
+        display: none;
+    }
+    #trabalhos{
+        padding: 50px 0 0 0 ;
+    }
+    #trabalhos .container{
+        width: 100% !important;
+    }
+    .slide{
+        width: 100% !important;
+        height: 350px;
+    }
+    .carousel-inner{
+        width: 250px;
+        margin-left: 40px;
+    }
+    .carousel-control{
+        background: rgb(222,224,222) !important;
+    }
+    .carousel-indicators li{
+        background: #028F97;
+        border-color: white;
+    }
+    .slide img{
+        max-width: 300px;
+    }
+}
+@media only screen 
+and (min-device-width : 320px) and (max-device-width : 568px) {
+    #inicio .container{
+        max-width: 200px;
+        text-align: center;
+        height: 130px;
+    }
+    .titulo{
+        font-size: 22px;
+    }
+    .subtitulo{
+        font-size: 22px;
+    }
+    .nav{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .nav a{
+        margin-bottom: 10px;
+    }
+    #sobre p{
+        font-size: 15px;
+    }
+    #sobre{
+        padding: 20px;
+    }
+    #sobre p{
+        font-size: 15px;
+    }
+    .voltar,.descer{
+        display: none;
+    }
+    #trabalhos{
+        padding: 20px;
+    }
+    .descriçao{
+        font-size: 15px !important;
+    }
+    .slide{
+        width: 100% !important;
+        height: 250px;
+    }
+    .carousel-inner{
+        width: 250px;
+        margin-left: 10px;
+    }
+    .carousel-control{
+        background: rgb(222,224,222) !important;
+    }
+    .carousel-indicators li{
+        background: #028F97;
+        border-color: white;
+    }
+    .slide img{
+        max-width: 200px;
+    }
+}

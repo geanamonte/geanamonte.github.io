@@ -88,8 +88,7 @@ h1{
 }
 #trabalhos{
     padding: 50px;
-    background: rgb(222,224,222);
-    
+    background: #d6d8d6;    
 }
 #trabalhos h1{
     text-align: center;
@@ -124,7 +123,7 @@ h1{
 }
 .descriçao{
     padding: 20px 10px;
-    font-size: 1.25em;
+    font-size: 15px;
 }
 .work div img{
     width: 100%;
@@ -138,7 +137,7 @@ h1{
     margin-left: 100px;
 }
 .carousel-control{
-    background: rgb(222,224,222) !important;
+    background: #d6d8d6 !important;
 }
 .carousel-indicators li{
     background: #028F97;
@@ -165,104 +164,4 @@ footer{
 }
 footer p{
     margin: 0 auto;
-}
-@media (min-width: 768px) and (max-width: 1280px) {
-    #sobre{
-        padding: 50px; 
-    }
-    #sobre .voltar{
-        margin: 50px 0 0 0;
-    }
-}
-@media (min-width: 360px) and (max-width: 640px) {
-    #inicio .container{
-        max-width: 300px;
-        text-align: center;
-        height: 160px;
-    }
-    .titulo{
-        font-size: 35px;
-    }
-    .subtitulo{
-        font-size: 35px;
-    }
-    .nav{
-        font-size: 25px;
-    }
-    #sobre p{
-        font-size: 15px;
-    }
-    .voltar, .descer{
-        display: none;
-    }
-    #trabalhos{
-        padding: 50px 0 0 0 ;
-    }
-    #trabalhos .container{
-        width: 100% !important;
-    }
-    .slide{
-        width: 100% !important;
-        height: 350px;
-    }
-    .carousel-inner{
-        width: 250px;
-        margin-left: 40px;
-    }
-    .carousel-control{
-        background: rgb(222,224,222) !important;
-    }
-    .carousel-indicators li{
-        background: #028F97;
-        border-color: white;
-    }
-    .slide img{
-        max-width: 300px;
-    }
-}
-@media (min-width: 100px) and (orientation: landscape) {
-    #inicio .container{
-        max-width: 300px;
-        text-align: center;
-        height: 160px;
-    }
-    .titulo{
-        font-size: 35px;
-    }
-    .subtitulo{
-        font-size: 35px;
-    }
-    .nav{
-        font-size: 25px;
-    }
-    #sobre p{
-        font-size: 15px;
-    }
-    .voltar, .descer{
-        display: none;
-    }
-    #trabalhos{
-        padding: 50px 0 0 0 ;
-    }
-    #trabalhos .container{
-        width: 100% !important;
-    }
-    .slide{
-        width: 100% !important;
-        height: 350px;
-    }
-    .carousel-inner{
-        width: 400px;
-        margin-left: 100px;
-    }
-    .carousel-control{
-        background: rgb(222,224,222) !important;
-    }
-    .carousel-indicators li{
-        background: #028F97;
-        border-color: white;
-    }
-    .slide img{
-        max-width: 300px;
-    }
 }
