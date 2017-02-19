@@ -9,7 +9,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 #inicio{
-    background: rgb(228,120,48);
+    background: url('../images/pattern.jpg');
     height: 662px;
     display: flex;
 }
@@ -33,7 +33,7 @@ body{
     text-decoration: none;
 }
 .nav a:hover{
-    color: #30DAE4;
+    color: rgb(222,224,222)
 }
 .titulo{
     font-weight: 300;
@@ -67,10 +67,14 @@ h1{
     line-height: 1.5em;
 }
 #sobre .voltar{
-    margin: 200px 0 0 0;
+    margin: 150px 0 0 0;
 }
 #sobre .descer{
     text-align: right;
+}
+.curriculo{
+    color: #028F97;
+    font-size: 20px;
 }
 .descer a{
     color: #028F97;
@@ -119,7 +123,6 @@ h1{
     text-align: center;
 }
 .descriçao{
-    color: #028F97;
     padding: 20px 10px;
     font-size: 1.25em;
 }
@@ -137,6 +140,10 @@ h1{
 .carousel-control{
     background: rgb(222,224,222) !important;
 }
+.carousel-indicators li{
+    background: #028F97;
+    border-color: white;
+}
 .voltar{
     text-align: right;
 }
@@ -152,20 +159,110 @@ h1{
 }
 footer{
     background: rgb(228,120,48);
-    padding: 20px;
     color: white;
     text-align: center;
+    padding: 10px 0;
+}
+footer p{
+    margin: 0 auto;
 }
 @media (min-width: 768px) and (max-width: 1280px) {
     #sobre{
         padding: 50px; 
     }
     #sobre .voltar{
-        margin: 100px 0 0 0;
+        margin: 50px 0 0 0;
     }
 }
-@media (min-width: 320) and (max-width: 640) {
-    #inicio .container p{
-        font-size: 20px;
+@media (min-width: 360px) and (max-width: 640px) {
+    #inicio .container{
+        max-width: 300px;
+        text-align: center;
+        height: 160px;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    .subtitulo{
+        font-size: 35px;
+    }
+    .nav{
+        font-size: 25px;
+    }
+    #sobre p{
+        font-size: 15px;
+    }
+    .voltar, .descer{
+        display: none;
+    }
+    #trabalhos{
+        padding: 50px 0 0 0 ;
+    }
+    #trabalhos .container{
+        width: 100% !important;
+    }
+    .slide{
+        width: 100% !important;
+        height: 350px;
+    }
+    .carousel-inner{
+        width: 250px;
+        margin-left: 40px;
+    }
+    .carousel-control{
+        background: rgb(222,224,222) !important;
+    }
+    .carousel-indicators li{
+        background: #028F97;
+        border-color: white;
+    }
+    .slide img{
+        max-width: 300px;
+    }
+}
+@media (min-width: 100px) and (orientation: landscape) {
+    #inicio .container{
+        max-width: 300px;
+        text-align: center;
+        height: 160px;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    .subtitulo{
+        font-size: 35px;
+    }
+    .nav{
+        font-size: 25px;
+    }
+    #sobre p{
+        font-size: 15px;
+    }
+    .voltar, .descer{
+        display: none;
+    }
+    #trabalhos{
+        padding: 50px 0 0 0 ;
+    }
+    #trabalhos .container{
+        width: 100% !important;
+    }
+    .slide{
+        width: 100% !important;
+        height: 350px;
+    }
+    .carousel-inner{
+        width: 400px;
+        margin-left: 100px;
+    }
+    .carousel-control{
+        background: rgb(222,224,222) !important;
+    }
+    .carousel-indicators li{
+        background: #028F97;
+        border-color: white;
+    }
+    .slide img{
+        max-width: 300px;
     }
 }
