@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#inicio{
+    background: rgb(228,120,48);
+    height: 662px;
+    display: flex;
+}
+#inicio div{
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    border: 3px solid white;
+    margin-top: 200px;
+    padding: 20px 20px;
+    font-size: 30px;
+    color: white;
+}
+.titulo{
+    font-weight: 300;
+    font-size: 50px;
+}
+.subtitulo{
+    font-size: 50px;
+    font-weight: 400;
+}
+#sobre{
+    padding:50px 100px;
+    height: 662px;
+    text-align: center;
+}
+#sobre h1:after{
+    content: "---------";
+    color: #028F97;
+    display: block;
+    font-size: 50px;
+    margin-top: -20px;
+}
+#sobre p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+#trabalhos{
+    padding:50px 200px;
+    background: rgb(222,224,222);
+    
+}
+#trabalhos h1{
+    text-align: center;
+}
+#trabalhos h1:after{
+    content: "---------";
+    color: #028F97;
+    display: block;
+    font-size: 50px;
+    margin-top: -20px;
+}
+#trabalhos h2{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.texto{
+    font-size: 20px;
+    margin: 0 20px;
+}
+#ciclo p{
+    margin-top: 70px;
+}
+.traço{
+    color: #028F97;
+    font-size: 30px;
+    text-align: center;
+}
+#topcom{
+    padding: 0 20px 0 20px;
+}
+#topcom p{
+    margin: 0 20px;
+    margin-top: 70px;
+    
+}
+#jacee{
+    padding: 0 20px 0 20px;
+}
+#jacee p{
+    margin-top: 50px;
+}
