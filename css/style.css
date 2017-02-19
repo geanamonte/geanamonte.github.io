@@ -13,7 +13,8 @@ body{
     height: 662px;
     display: flex;
 }
-#inicio div{
+#inicio .container{
+    max-width: 500px;
     text-align: center;
     height: 200px;
     width: 500px;
@@ -22,6 +23,17 @@ body{
     padding: 20px 20px;
     font-size: 30px;
     color: white;
+}
+.nav{
+    margin-top: 70px;
+}
+.nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #028F97;
 }
 .titulo{
     font-weight: 300;
@@ -32,7 +44,7 @@ body{
     font-weight: 400;
 }
 #sobre{
-    padding:50px 100px;
+    padding:50px 0;
     height: 662px;
     text-align: center;
 }
@@ -48,8 +60,25 @@ body{
     text-align: justify;
     line-height: 1.5em;
 }
+#sobre .voltar{
+    margin: 200px 100px 0 0;
+}
+#sobre .descer{
+    text-align: right;
+    margin: 0 100px;
+}
+.descer a{
+    color: #028F97;
+    font-weight: bold;
+    text-decoration: none;
+}
+.descer a:after{
+    content: "▼";
+    padding: 10px;
+    font-size: 30px;
+}
 #trabalhos{
-    padding:50px 200px;
+    padding: 50px;
     background: rgb(222,224,222);
     
 }
@@ -73,25 +102,52 @@ body{
     font-size: 20px;
     margin: 0 20px;
 }
-#ciclo p{
-    margin-top: 70px;
-}
 .traço{
     color: #028F97;
     font-size: 30px;
     text-align: center;
 }
-#topcom{
-    padding: 0 20px 0 20px;
+#trabalhos .container{
+    max-width: 500px;
 }
-#topcom p{
-    margin: 0 20px;
-    margin-top: 70px;
+.work{
+    text-align: center;
+}
+.work:hover .descriçao{
+    visibility: visible;
+    opacity: 1;
     
 }
-#jacee{
-    padding: 0 20px 0 20px;
+.descriçao{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+    color: #028F97;
+    padding: 20px 10px;
+    font-size: 1.25em;
 }
-#jacee p{
-    margin-top: 50px;
+.work div img{
+    width: 100%;
+}
+.voltar{
+    text-align: right;
+}
+.voltar a{
+    color: #028F97;
+    font-weight: bold;
+    text-decoration: none;
+}
+.voltar a:after{
+    content: "▲";
+    padding: 10px;
+    font-size: 30px;
+}
+footer{
+    background: rgb(228,120,48);
+    padding: 20px;
+    color: white;
+    text-align: center;
 }

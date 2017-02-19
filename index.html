@@ -19,62 +19,68 @@
         <div class="container">
             <p class="titulo">Portfolio</p>
             <p class="subtitulo">Georgeana Dias</p>
-        </div>  
+            <div class="nav">
+                <a href="#sobre" class="scroll">Sobre Mim</a>
+                <a href="#trabalhos"  class="scroll">Trabalhos</a>
+            </div>
+        </div> 
+
     </section>
     <section id="sobre">
-        <div>
-          <h1>SOBRE MIM</h1>
-          <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero).</p>
-        </div>    
+        <div class="container">
+                  <h1>SOBRE MIM</h1>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 .col-sm-12 ">
+                  <p>Atualmente cursa o 5º periodo de Engenharia de Computação pela Universidade Federal do Espírito Santo (UFES), e é bolsista do Programa de Ensino Tutorial (PET - EngComp). Foi monitora da disciplina programação II, e desde 2015 é professora do projeto IntroComp, onde ensina programação em C para alunos do Ensino Médio.</p>
+                  <p>Tem muito interesse em desenvolvimento Web e está constantemente estudando para desenvolver suas habilidades a fim de se tonar uma ótima profissional.</p>
+                </div>
+            </div>            
+        </div>
+        <div class="voltar"><a href="#inicio" class="scroll">Voltar ao topo</a></div>
+        <div class="descer"><a href="#trabalhos" class="scroll">Trabalhos</a></div>
     </section>
     <section id="trabalhos">
         <h1>TRABALHOS</h1>
-        <div>
-            <h2>2015</h2>
-            <div><p class="traço">|</p>
-            </div>
+        <div  class="container">
             <h2>2016</h2>
-            <div>
-                <p class="traço">|</p>
-                    <div id="ciclo" class="flex">                
-                        <div><img src="images/ciclo.png"></div>
-                        <div class="texto"><p>Atualização da identidade da marca para um modelo mais moderno</p>
-                        </div>                   
-                    </div>                    
-                    <div id="topcom" class="flex">
-                        <div class="texto"><p>O site do Topcom foi desenvolvido pela equipe de Web do PET. Fui responsável pela identidade visual e também participei da programação.
-                        </p></div>
-                        <a href="https://www.topcom.pet.inf.ufes.br/index.php"><img src="images/topcom2016.png"></a>
-                    </div>
-                <div id="jacee" class="flex">
-                    <a href="http://jacee.ufes.br/"><img src="images/jacee.png"></a>
-                    <div class="texto"><p>O site da Jacee também foi desenvolvido pela equipe de Web do PET. Fui responsável pela estruturação do site baseado em um layout pronto. Trabalhei especialmente nas páginas: minicursos, programação, conferir inscrição e certificados.
-                    </p></div>
-                </div>
-                <p class="traço">|</p>
+            <p class="traço">|</p>
+            <div class="work"><div>
+                <img src="images/ciclo.png"></div>
+                <div class="descriçao">Atualização da identidade da marca para um modelo mais moderno</div>
+            </div>    
+            <div class="work">
+                <div><a href="https://www.topcom.pet.inf.ufes.br/index.php"><img src="images/topcom2016.png"></a></div>
+                <div class="descriçao">Site desenvolvido pela equipe do PET. Fui responsável pela identidade visual e programação.</div>
             </div>
-                
+            <div class="work">
+                <div><a href="http://jacee.ufes.br/"><img src="images/jacee.png"></a></div>
+                <div class="descriçao">Site desenvolvido pela equipe PET. Fui responsável pela estruturação do site baseado em um layout pronto. Trabalhei especialmente nas páginas: minicursos, programação, conferir inscrição e certificados.</div>
+            </div>
+            <p class="traço">|</p>
+          
             <h2>2017</h2>
             <div>
                 <p class="traço">|</p>
-                <div id="outdoor" class="flex">
-                 <a href="images/outdoor.pdf"><img src="images/outdoor.png"></a>
-                 <div class="texto"><p>Desenvolvi a arte do outdoor para o evento SudestePET da UFES.
-                 </p></div>
+                <div class="work">
+                    <div><a href="images/outdoor.pdf"><img src="images/outdoor.png"></a></div>
+                    <div class="descriçao">Desenvolvi a arte do outdoor para o evento SudestePET da UFES.</div>
                 </div>
-                <div id="udacity" class="flex">
-                 <div class="texto"><p>Desenvolvi este projeto para admissão no programa de code reviewer de HTML e CSS da Udacity
-                 </p></div>
-                <a href="projeto1/projeto1.html"><img src="images/udacity.jpg"></a>    
+                <div class="work">
+                    <div><a href="projeto1/projeto1.html"><img src="images/udacity.png"></a></div>    
+                    <div class="descriçao">Desenvolvi este projeto para admissão no programa de code reviewer de HTML e CSS da Udacity.</div>
                 </div>
                 <p class="traço">|</p>
             </div>
-
-        </div>    
+        </div>
+        <div class="voltar"><a href="#inicio" class="scroll">Voltar ao topo</a></div>
     </section>
+    <footer>
+        <p>Desenvolvido por Georgeana Dias</p>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script> 
+    <script src="js/functions.js"></script>
   </body>
 </html>
