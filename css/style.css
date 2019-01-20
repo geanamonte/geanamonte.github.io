@@ -1,0 +1,60 @@
+body{
+	background: #F0EFF4;
+}
+*{
+	font-family: 'Lato', sans-serif;
+	color: #000000;
+}
+p{
+	line-height: 1.9;
+}
+a, a:hover, a:active{
+	color: #9E829C;
+	text-decoration: none;
+}
+.container:after {
+    content: "";
+    width: calc(100vw);
+    background: #9E829C;
+    opacity: 0.3;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.secao{
+	margin-bottom: 50px; 
+}
+h1{
+	font-family: 'Lobster', cursive;
+}
+.title{
+	margin-top: 25px;
+	text-align: center;
+}
+.title h1{
+	font-size: 70px;
+	
+}
+.content{
+	padding: 100px 50px;
+}
+.sidebar{
+	padding: 130px 0;
+}
+.content h3{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #4D6B68;
+}
+
+.image-autor img{
+	border-radius: 100%;
+}
+.contato {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+.contato i, .contato svg{
+    color: #9E829C;
+}
