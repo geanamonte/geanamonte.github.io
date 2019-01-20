@@ -4,6 +4,7 @@ body{
 *{
 	font-family: 'Lato', sans-serif;
 	color: #000000;
+	line-height: 1.9;
 }
 p{
 	line-height: 1.9;
@@ -61,4 +62,19 @@ h1{
 }
 .contato i, .contato svg{
     color: #9E829C;
+}
+@media screen and (max-width: 525px) {
+	.content{
+		padding: 50px 20px;
+	}
+	.sidebar{
+		padding: 0 30px;
+		margin-top: -50px;
+	}
+	.title h1{
+		font-size: 60px;
+	}
+	.title h2{
+		font-size: 25px;
+	}
 }
