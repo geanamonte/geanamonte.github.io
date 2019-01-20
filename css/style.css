@@ -12,15 +12,19 @@ a, a:hover, a:active{
 	color: #9E829C;
 	text-decoration: none;
 }
-.container:after {
-    content: "";
-    width: calc(100vw);
-    background: #9E829C;
-    opacity: 0.3;
-    height: 180px;
+header {
+    /*content: "";*/
+    /*width: calc(100vw);*/
+    background: #c8b9c8;
+    
+    /*opacity: 0.3;*/
+/*    height: 180px;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 0;*/
+}
+h1,h2{
+	color: #51424f;
 }
 .secao{
 	margin-bottom: 50px; 
